@@ -55,6 +55,9 @@ page_data:
     - title: "Programming"
       type: id_programming
       color: "#62b462"
+    - title: "Attribution"
+      type: id_attribution
+      color: "purple"
 
   list:
     -
@@ -91,4 +94,9 @@ page_data:
       title: "W3Schools"
       url: "https://www.w3schools.com/"
       info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+
+    - type: id_attribution
+      title: "Image by DCStudio on Freepik"
+      url: https://www.freepik.com/free-photo/person-holding-mobile-phone-with-high-tech-application-smart-house-features-controlling-lights-with-wireless-device_15853929.htm#query=smart%20home&position=8&from_view=search&track=ais
+      info: Home page image
 ---

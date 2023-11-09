@@ -197,7 +197,7 @@ cookie_consent:
     title: *cookie_settings
     msg: >
       This website uses cookies to optimize site functionality.
-      It will be activated with your approval. Please click each item below for cookie policy.
+      It will be activated with your approval.
     privacy_msg: Check $privacy_link.
     buttons:
       accept: *accept_button

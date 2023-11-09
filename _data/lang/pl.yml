@@ -13,10 +13,10 @@ lng:
   country: PL
   switch_title: Pl
   offer:
-    title: Langue
-    msg_page: Voir cette page en français.
+    title: Język
+    msg_page: Przegląda stronę po polsku.
     # if page translation is not available, use this.
-    msg_site: Aller à l'accueil français
+    msg_site: Strona startowa
 
 date:
   # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
@@ -27,36 +27,36 @@ date:
   months: [Janv, Févr, Mars, Avr, Mai, Juin, Juil, Août, Sept, Oct, Nov, Déc]
 
 not_found:
-  header: Page non trouvée
-  line1: La page que vous avez demandée est introuvable.
-  line2: Essayez le menu ou la recherche sur le site si disponible.
+  header: Strona nie znaleziona
+  line1: Strona, którą chciałeś odwiedzić nie istnieje.
+  line2: Użyj menu lub wyszukiwania.
 
-no_translation_tooltip: Pas de traduction
+no_translation_tooltip: Brak tłumaczenia
 
 navigation:
-  contact_header: Contact
+  contact_header: Kontakt
 
-color_scheme_switch_tooltip: Schéma de couleur
+color_scheme_switch_tooltip: Schemat kolorów
 
 search:
-  placeholder: Recherche
-  noResultText: Aucun résultat trouvé.
+  placeholder: Szukaj
+  noResultText: Brak wyników.
 
 image_viewer:
-  load_error: "L'image n'a pas pu être chargée."
+  load_error: Nie można załadować obrazka.
 
 copyright:
-  additional_text: " Tous les droits sont réservés."
+  additional_text: " Wszystkie prawa zastrzeżone."
 
 creative_commons:
-  some_rights_reserved: Certains droits réservés.
+  some_rights_reserved: Część praw zastrzeżona.
   # check _data/owner/[language].yml for license type.
-  by: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution 4.0 International.
-  by-nd: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NoDerivatives 4.0 International.
-  by-sa: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-ShareAlike 4.0 International.
-  by-nc: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NonCommercial 4.0 International.
-  by-nc-nd: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.
-  by-nc-sa: Sauf indication contraire, le contenu de ce site Web est sous licence Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
+  by: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution 4.0 International License.
+  by-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
+  by-sa: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+  by-nc: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+  by-nc-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+  by-nc-sa: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 # for 404 layout
 not-found:
@@ -66,48 +66,48 @@ not-found:
 post:
   read_time:
     unit: " min"
-    text: " de lecture"
+    text: " czytaj"
     # c for char w for word
     word_char: w
     # char or words per minute
     per_minute: 200
   pager_buttons:
-    older_post: "← Article plus ancien"
-    newer_post: "Article plus récent →"
-    first_post: "Début"
-    last_post: "Dernier"
+    older_post: "← Starsze wpisy"
+    newer_post: "Nowsze wpisy →"
+    first_post: Pierwszy
+    last_post: Ostatni
   comments:
-    noscript: Veuillez activer JavaScript pour afficher les commentaires.
+    noscript: Włącz JavaScript aby zobaczyć komentarze.
     disqus:
-      count_title: Commentaires
-      click_to_load: "Charger les commentaires"
+      count_title: Komentarze
+      click_to_load: Wczytaj komentarze
       consent:
-        title: Commentaires (Disqus.com)
+        title: Komentarze (Disqus.com)
         text: >
-          La fonctionnalité de commentaire est hébergée par un tiers. En affichant le contenu externe, vous acceptez les $terms et la $privacy_policy de disqus.com.
-          <br>Si vous préférez désactiver la publicité ciblée, ouvrez $settings_link et cliquez sur le bouton "désactiver" et fermez. Revenez ici et chargez les commentaires.
-        terms_link_text: Conditions d'utilisation
-        privacy_link_text: Politique de confidentialité
-        settings_link_text: ce lien
+          Comment feature is hosted by a third party. By showing the external content you accept the $terms and $privacy_policy of disqus.com.
+                    <br>If you prefer to opt out of targeted advertising, open $settings_link and click "opt-out" button and close. Return here and load comments.
+        terms_link_text: Terms of Service
+        privacy_link_text: Privacy Policy
+        settings_link_text: this link
         button:
-          load_once: Afficher uniquement cette fois
-          load_and_do_not_ask_again: Toujours montrer
+          load_once: Pokaż tylko teraz
+          load_and_do_not_ask_again: Zawsze pokazuj
   table_of_contents:
-    heading: Contenu
+    heading: Zawartość
     tooltip:
-      move: Glisser pour déplacer
-      close: Fermer
+      move: Przecniągnij aby przenieść
+      close: Zamknij
   share:
-    heading: Partager sur
-    link_copied: Lien copié !
+    heading: Udostępnij
+    link_copied: Odnośnik skopiowany !
     tooltip:
       # keys need to match with _data/share.yml
       twitter: Twitter
       facebook: Facebook
       telegram: Telegram
       linkedin: LinkedIn
-      email: e-mail
-      copy_link: Copier le lien
+      email: Email
+      copy_link: Kopiuj odnośnik
 
 # for post-list layout
 post-list:
@@ -115,122 +115,123 @@ post-list:
   button_name: Blog
   upside_down_tabs:
     tab:
-      all: Toute
-      categories: Catégories
-      tags: Mots clés
-      years: Années
-      clear: Retirer
-      close: Fermer
+      all: Wszystkie
+      categories: Kategorie
+      tags: Tagi
+      years: Lata
+      clear: Wyczyść
+      close: Zamknij
       tooltip:
-        clear: Retirer
-        close: Fermer
+        clear: Wyczyść
+        close: Zamknij
     msg:
       property_list:
         # keys need to match with /query/post-query.json
-        tags: Étiquette
-        category: Catégorie
-        year: Année
+        tags: Tagi
+        category: Kategoria
+        year: Lata
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
 # for home layout
 home:
-  title: Bienvenue
-  button_name: Accueil
-  new_posts_title: Nouveaux articles
-  new_posts_show_more_button: Voir plus ...
+  title: Witaj
+  button_name: Start
+  new_posts_title: Ostatnio dodane
+  new_posts_show_more_button: Więcej ...
 
 # for archives layout
 archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+  title: Archiwum
+  button_name: Archiwum
+  page_header: Archiwum
 
 # for about layout
 about:
-  title: À propos
-  button_name: À propos
+  title: O mnie
+  button_name: O mnie
   email_title: e-mail
 
 # for links layout
 links:
-  title: Liens
-  button_name: Liens
-  link_text: Site Internet
+  title: Odnośniki
+  button_name: Odnośniki
+  link_text: Strona
   info_text: Info
 
 # for projects layout
 projects:
-  title: Projets
-  button_name: Projets
-  read_more_text: En savoir plus
-  read_less_text: Réduire
+  title: Projekty
+  button_name: Projekty
+  read_more_text: Więcej
+  read_less_text: Mniej
 
 # for privacy-policy layout
 privacy-policy:
-  title: &privacy_policy_title Politique de confidentialité
+  title: &privacy_policy_title Privacy policy
 
 # constants to be replaced for
 constants:
-  greetings: Bonjour
-  welcome: Bienvenue
-  sample: Goûter
+  greetings: Witaj
+  welcome: Witaj
+  sample: Przykład
 
 # for contact form
 contact_form:
-  button_name: Formulaire de contact
-  formLoadingText: Chargement du formulaire de contact...
+  button_name: Formularz kontaktowy
+  formLoadingText: Wczytywanie formularza kontaktowego...
 
 # for cookie consent
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
-  side_nav_setting_button_tooltip: &cookie_settings Paramètres des cookies
+  side_nav_setting_button_tooltip: &cookie_settings Ustawienia ciasteczek
   panel_bar:
     msg: >
-      Ce site Web utilise des cookies pour optimiser les fonctionnalités du site.
-      Ils seront activés avec votre accord.
-    privacy_msg: Vérifiez la $privacy_link.
+      This website uses cookies to optimize site functionality.
+      It will be activated with your approval.
+    privacy_msg: Zobacz $privacy_link.
     buttons:
-      accept: &accept_button Autoriser tout
-      settings: Personnaliser
-      deny: &deny_button Refuser
+      accept: &accept_button Zezwól na wszystkie
+      settings: Personalizuj
+      deny: &deny_button Nie zezwalaj
   panel_settings:
     title: *cookie_settings
     msg: >
-      Ce site Web utilise des cookies pour optimiser les fonctionnalités du site.
-      Ils seront activés avec votre accord. Veuillez cliquer sur chaque élément ci-dessous pour la politique en matière de cookies.
-    privacy_msg: Vérifiez la $privacy_link.
+      This website uses cookies to optimize site functionality.
+      It will be activated with your approval.
+    privacy_msg: Zobacz la $privacy_link.
     buttons:
       accept: *accept_button
-      save: Autoriser la sélection
+      save: Zezwól na zaznaczone
       deny: *deny_button
-    always_active: Toujours actif
+    always_active: Zawsze aktywne
     consent_types:
       necessary:
-        title: Cookies strictement nécessaires
+        title: Wymagane ciasteczka
         info: >
-          Ces cookies sont essentiels au fonctionnement du site Web et ne peuvent pas être désactivés.
-          Ils sont généralement définis lorsque la fonction du site, telle que la palette de couleurs, etc., est modifiée.
-          Ces cookies ne stockent aucune information personnellement identifiable.
+          These cookies are essential for the website function and cannot be disable.
+          They are usually set when site function like color scheme etc. is changed.
+          These cookies do not store any personally identifiable information.
           $gtag_info
       analytics:
-        title: Cookies de performance
+        title: Ciasteczka związane z wydajnością
         info: $gtag_info
       preferences:
-        title: Cookies de fonctionnalité
+        title: Ciasteczka odpowiedzialne za funkcjonowanie strony
         info: $gtag_info
       advertising:
-        title: Cookies de ciblage et publicitaires
+        title: Ciasteczka związane z profilowaniem i reklamą
         info: $gtag_info
     gtag_info:
       # from https://support.google.com/tagmanager/answer/10718549#consent-types
       ad_storage: >
-        Permet le stockage (de cookies, par exemple) lié à la publicité.
+        Enables storage (such as cookies) related to advertising.
       analytics_storage: >
-        Permet le stockage (de cookies, par exemple) lié à l'analyse (comme la durée des visites).
+        Enables storage (such as cookies) related to analytics e.g. visit duration.
       functionality_storage: >
-        Permet le stockage compatible avec la fonctionnalité du site ou de l'application (par exemple, les paramètres linguistiques).
+        Enables storage that supports the functionality of the website or app e.g. language settings.
       personalization_storage: >
-        Permet le stockage lié à la personnalisation (par exemple, les recommandations de vidéos).
+        Enables storage related to personalization e.g. video recommendations.
       security_storage: >
-        Permet le stockage lié à la sécurité (par exemple, la fonctionnalité d'authentification, la prévention des fraudes et les autres systèmes de protection des utilisateurs).
+        Enables storage related to security such as authentication functionality,
+        fraud prevention, and other user protection.
