@@ -5,7 +5,7 @@
 brand: "Yet Another Home Automation"
 
 # text below the brand name
-brand_sub_text: "$site_sample"
+brand_sub_text: ""
 
 # used for seo meta post author (if it's not defined in post)
 name: "Paweł"
@@ -19,11 +19,11 @@ home:
 
 # about page sub title
 about:
-  sub_title: "$site_sample"
+  sub_title: ""
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
-copyright_start_year: "2022"
+copyright_start_year: "2023"
 
 # make sure creative_commons.enable is true in _data/conf/main.yml file
 creative_commons:
@@ -63,7 +63,7 @@ contacts:
 comments:
   # Create a Disqus account and fill out the items below.
   disqus:
-    shortname: ""
+    shortname: "yaha-pl"
   # To use Giscus, go to https://giscus.app and look for the "Configuration".
   # - Enter your repository name, and it will create the following settings for you under "Enable giscus".
   # - Get the corresponding items and fill in the items below.

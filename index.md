@@ -37,9 +37,6 @@ img: ":person-holding-mobile-phone-with-high-tech-application-smart-house-featur
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+# Hi
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
-
-{{ website_info_text_second }}
+On this site You will be able to find my home automation solutions.
