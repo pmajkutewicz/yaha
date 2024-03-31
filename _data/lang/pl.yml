@@ -20,11 +20,11 @@ lng:
 
 date:
   # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
-  long: "%-d %b, %Y"
+  long: "%Y-%m-%d"
   day: "%d"
   year: "%Y"
   # months itself also used in Archive page.
-  months: [Janv, Févr, Mars, Avr, Mai, Juin, Juil, Août, Sept, Oct, Nov, Déc]
+  months: [STY, LUT, MAR, KWI, MAJ, CZE, LIP, SIE, WRZ, PAŹ, LIS, GRU]
 
 not_found:
   header: Strona nie znaleziona
