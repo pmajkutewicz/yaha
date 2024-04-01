@@ -54,6 +54,7 @@ layout: util/compress
         {%-comment-%} don't add anything here. If you want to add, check :last-child css selector for page bottom spacing. {%-endcomment-%}
       </div>
       {%- include default/footer.html -%}
+      {%- include default/vercel.html -%}
       {% if site.data.conf.main.scroll_back_to_top_button -%}
       <div class="scroll-to-top-container">
         <a id="scroll-to-top" href="#main-wrapper" class="hover-effect"><i class="fa fa-angle-up"></i></a>
